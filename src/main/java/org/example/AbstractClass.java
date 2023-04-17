@@ -8,9 +8,7 @@ public abstract class AbstractClass {
     private LocalDateTime creationDate;
     private boolean active;
 
-    public Long getId() {
-        return id;
-    }
+    public Long getId() { return id; }
 
     public void setId(Long id) {
         this.id = id;
